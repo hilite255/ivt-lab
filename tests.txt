@@ -1,0 +1,5 @@
+1. Fire secondary with empty primary and enough in secondary: true
+2. Fire secondary with empty primary and not enough in secondary: false
+3. Fire all with empty primary and secondary: false
+4. Fire all with torpedos in primary: true
+5. Fire single with primary and secondary empty: false

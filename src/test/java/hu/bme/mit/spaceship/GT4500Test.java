@@ -67,7 +67,7 @@ public class GT4500Test {
    when(secondary.getTorpedoCount()).thenReturn(0);
    when(secondary.isEmpty()).thenReturn(true);
    // Act
-   boolean result = ship.fireTorpedo(FiringMode.ALL);
+   boolean result = ship.fireTorpedo(FiringMode.SINGLE);
    // Assert
    verify(primary, times(0)).fire(0);
    verify(secondary, times(0)).fire(0);
